@@ -11,4 +11,4 @@ console.log(currency.USToBitcoin(30));
 
 // User currency modules bitcoinToCanada function.
 console.log('100 Canadian Dollars equals this amount of Bitcoins');
-console.log(currency.canadianToBitcoin);
+console.log(currency.bitcoinToCanadian);
