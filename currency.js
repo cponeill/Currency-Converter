@@ -17,5 +17,10 @@ exports.USToBitcoin = function(us) {
 
 // bitcoinToCanadian exports module
 exports.bitcoinToCanadian = function(canada) {
-    return roundDecimalPlace(canada / bitcoinValue);
+  return roundDecimalPlace(canada / bitcoinValue);
+}
+
+// bitcoinToPeso exports module
+exports.bitconToPeso = function(peso) {
+  return roundDecimalPlace(peso / bicoinValue);
 }
